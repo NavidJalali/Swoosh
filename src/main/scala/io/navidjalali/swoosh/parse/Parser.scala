@@ -1,12 +1,19 @@
 package io.navidjalali.swoosh.parse
 
-import scala.collection.mutable
+import io.navidjalali.swoosh.models.HexString
 import io.navidjalali.swoosh.syntax.BytesSyntax._
 
-import java.nio.charset.StandardCharsets
+import java.nio.charset.{Charset, StandardCharsets}
+import scala.collection.mutable
 
-sealed trait Parser[+A] { self =>
-  def parse(input: IndexedSeq[Byte]): Either[String, A] = {
+sealed trait Parser[+A] {
+  self =>
+  def parse(input: HexString): Either[String, A] = parse(input.underlyingBytes)
+
+  def parse(input: String, charset: Charset = StandardCharsets.UTF_8): Either[String, A] =
+    parse(input.getBytes(charset))
+
+  def parse(input: Seq[Byte]): Either[String, A] = {
     var loop = true
 
     type Continuation = Any => Parser[Any]
@@ -19,7 +26,7 @@ sealed trait Parser[+A] { self =>
 
     var result: Either[String, A] = null
 
-    case class Handler[X, Y](fold: Parser.Fold[X, Y], remainder: IndexedSeq[Byte]) extends (X => Parser[Y]) {
+    case class Handler[X, Y](fold: Parser.Fold[X, Y], remainder: Seq[Byte]) extends (X => Parser[Y]) {
       override def apply(x: X): Parser[Y] = fold.success(x)
     }
 
@@ -125,10 +132,18 @@ sealed trait Parser[+A] { self =>
 
   def as[B](b: => B): Parser[B] = self.map(_ => b)
 
+  def unit(): Parser[Unit] = self.map(_ => ())
+
   def orElse[A1 >: A](that: => Parser[A1]): Parser[A1] = Parser.Fold(self, (a: A) => Parser.succeed(a), _ => that)
 
   def repeatedly: Parser[Vector[A]] =
     self.map(Vector(_)).zipWith(repeatedly)(_ ++ _).orElse(Parser.succeed(Vector()))
+
+  def repeat(n: Int): Parser[Vector[A]] =
+    if (n > 0) Vector.fill(n)(self).foldLeft(Parser.succeed(Vector.empty[A])) {
+      case (acc, next) => acc.flatMap(vec => next.map(a => vec :+ a))
+    }
+    else Parser.Succeed(Vector.empty)
 
   def zip[B](that: => Parser[B]): Parser[(A, B)] =
     for {
@@ -146,6 +161,12 @@ sealed trait Parser[+A] { self =>
 
 object Parser {
 
+  def parseAll[A](parsers: Vector[Parser[A]])(input: Seq[Byte]): Vector[A] = {
+    parsers.map(_.parse(input)).collect {
+      case Right(value) => value
+    }
+  }
+
   def succeed[A](a: A): Parser[A] = Succeed(a)
 
   def fail(reason: String): Parser[Nothing] = Fail(reason)
@@ -159,6 +180,16 @@ object Parser {
   def sequence(seq: Seq[Byte]): Parser[Seq[Byte]] = Sequence(seq)
 
   def byte(b: Byte): Parser[Byte] = ByteIf(_ == b)
+
+  def anyLong: Parser[Long] = anyChar.suchThat(_.isDigit, "Not a digit").repeatedly
+    .suchThat(_.nonEmpty, "Digit expected but not found.")
+    .map(_.mkString)
+    .flatMap { str =>
+      str.toLongOption match {
+        case Some(value) => Parser.succeed(value)
+        case None => Parser.fail(s"$str could not be casted to Long")
+      }
+    }
 
   val anyByte: Parser[Byte] = ByteIf(_ => true)
 

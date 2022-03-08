@@ -5,15 +5,13 @@ ThisBuild / organizationName := "example"
 
 lazy val dependencies =
   new {
-    val zioVersion = "1.0.12"
-    val zioHttpVersion = "1.0.0.0-RC23"
+    val zioVersion = "2.0.0-RC2"
     val akkaVersion = "2.6.18"
 
-
     val akkaStreams = "com.typesafe.akka" %% "akka-stream" % akkaVersion
-    val zio = "dev.zio" %% "zio" % "1.0.12"
+    val zio = "dev.zio" %% "zio" % zioVersion
+    val zioStreams = "dev.zio" %% "zio-streams" % zioVersion
     val zioTest = "dev.zio" %% "zio-test" % zioVersion % Test
-    val zioHttp = "io.d11" %% "zhttp" % zioHttpVersion
   }
 
 lazy val root = (project in file("."))
@@ -21,8 +19,8 @@ lazy val root = (project in file("."))
     name := "Swoosh",
     libraryDependencies ++= Seq(
       dependencies.zio,
+      dependencies.zioStreams,
       dependencies.zioTest,
-      dependencies.zioHttp,
       dependencies.akkaStreams
     ),
     testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework"),

@@ -35,8 +35,12 @@ object HexString {
     HexString(bytes, bytes.toIndexedSeq.toHexString)
 
   def fromString(string: String): Option[HexString] =
-    toByteArray(string).map(bytes => HexString(bytes, string))
+    toByteArray(string.filterNot(commonSeparators.contains).toUpperCase).map(bytes => HexString(bytes, string))
 
   def fromBase64(string: String): Option[HexString] =
     Try(Base64.getDecoder.decode(string)).toOption.map(HexString(_))
+
+  val hexSet: Set[Char] = ('A' to 'F').toSet ++ ('0' to '9').toSet
+
+  private val commonSeparators = Set(' ', '-')
 }

@@ -1,0 +1,214 @@
+Script; 2321; 0; []; Script or data to be passed to the program following the shebang (#!)
+Libpcap; D4C3B2A1; 0; [pcap]; Libpcap File Format
+LibpcapNanoSecondResolution; 4D3CB2A1; 0; [pcap]; Libpcap File Format (nanosecond-resolution)
+PCAPNextGeneration; 0A0D0D0A; 0; [pcapng]; PCAP Next Generation Dump File Format
+RPM; EDABEEDB; 0; [rpm]; RedHat Package Manager (RPM) package
+SQLiteDatabase; 53514C69746520666F726D6174203300; 0; [sqlitedb,sqlite,db]; SQLite Database
+AmazonKindleUpdatePackage; 53503031; 0; [bin]; Amazon Kindle Update Package
+PalmPilotDatabase; 000000000000000000000000000000000000000000000000; 11; [PDB]; PalmPilot Database/Document File
+PalmDesktopCalendarArchive; BEBAFECA; 0; [DBA]; Palm Desktop Calendar Archive
+PalmDesktopToDoArchive; 00014244; 0; [DBA]; Palm Desktop To Do Archive
+PalmDesktopCalendarArchive; 00014454; 0; [TDA]; Palm Desktop Calendar Archive
+TelegramDesktopFile; 54444624; 0; [TDF$]; Telegram Desktop File
+TelegramDesktopEncryptedFile; 54444546; 0; [TDEF]; Telegram Desktop Encrypted File
+PalmDesktopDataFile; 00010000; 0; []; Palm Desktop Data File (Access format)
+Icon; 00000100; 0; [ico]; Computer icon encoded in ICO file format
+AppleIcon; 69636e73; 0; [icns]; Apple Icon Image format
+ThirdGenerationPartnershipProject; 667479703367; 4; [3gp,3g2]; 3rd Generation Partnership Project 3GPP and 3GPP2 multimedia files
+LempelZivWelchCompressed; 1F9D; 0; [z,tar.z]; compressed file (often tar zip) using Lempel-Ziv-Welch algorithm
+LZHCompressed; 1FA0; 0; [z,tar.z]; Compressed file (often tar zip) using LZH algorithm
+AmiBackAmigaBackup; 4241434B4D494B454449534B; 0; [bac]; AmiBack Amiga Backup data file
+AmiBackAmigaBackupIndex; 494E4458; 0; [idx]; AmiBack Amiga Backup index file
+BinaryPropertyList; 62706C697374; 0; [plist]; Binary Property List file
+Bzip2Compressed; 425A68; 0; [bz2]; Compressed file using Bzip2 algorithm
+GIF; 474946383761; 0; [gif]; Image file encoded in the Graphics Interchange Format (GIF)
+TIFF; 49492A00; 0; [tif,tiff]; Tagged Image File Format (TIFF)
+TIFF; 4D4D002A; 0; [tif,tiff]; Tagged Image File Format (TIFF)
+CanonRAWFormatVersion2; 49492A00100000004352; 0; [cr2]; Canon RAW Format Version 2, Canon's RAW format is based on TIFF
+KodakCineonImage; 802A5FD7; 0; [cin]; Kodak Cineon image
+RobNorthenCompressed; 524E4301; 0; []; Compressed file using Rob Northen Compression (version 1 and 2) algorithm
+NuruAscii; 4E555255494D47; 0; [nui,nup]; nuru ASCII/ANSI image and palette files
+DPX; 53445058; 0; [dpx]; SMPTE DPX image
+OpenEXR; 762F3101; 0; [exr]; OpenEXR image
+BPG; 425047FB; 0; [bpg]; Better Portable Graphics format
+JPEG; FFD8FFDB; 0; [jpg,jpeg]; JPEG raw or in the JFIF or Exif file format
+JPEG; FFD8FFE000104A4649460001; 0; [jpg,jpeg]; JPEG raw or in the JFIF or Exif file format
+JPEG; FFD8FFEE; 0; [jpg,jpeg]; JPEG raw or in the JFIF or Exif file format
+JPEG; FFD8FFE1????457869660000; 0; [jpg,jpeg]; JPEG raw or in the JFIF or Exif file format
+JPEG2000; 0000000C6A5020200D0A870A; 0; [jp2,j2k,jpf,jpm,jpg2,j2c,jpc,jpx,mj2]; JPEG 2000 format
+JPEG2000; FF4FFF51; 0; [jp2,j2k,jpf,jpm,jpg2,j2c,jpc,jpx,mj2]; JPEG 2000 format
+IFFInterleavedBitmapImage; 464F524D????????494C424D; 0; [4B57414A,lbm,ibm,iff]; IFF Interleaved Bitmap Image
+IFF8BitSampledVoice; 464F524D????????38535658; 0; [8svx,8sv,svx,snd,iff]; IFF 8-Bit Sampled Voice
+AmigaContiguousBitmap; 464F524D????????4143424D; 0; [acbm,iff]; Amiga Contiguous Bitmap
+IFFAnimatedBitmap; 464F524D????????414E424D; 0; [anbm,iff]; IFF Animated Bitmap
+IFFCELAnimation; 464F524D????????414E494D; 0; [anim,iff]; IFF CEL Animation
+IFFFacsimileImage; 464F524D????????46415858; 0; [faxx,fax,iff]; IFF Facsimile Image
+IFFFormattedText; 464F524D????????46545854; 0; [ftxt,iff]; IFF Formatted Text
+IFFSimpleMusicalScore; 464F524D????????534D5553; 0; [smus,smu,mus,iff]; IFF Simple Musical Score
+IFFMusicalScore; 464F524D????????434D5553; 0; [cmus,mus,iff]; IFF Musical Score
+IFFYUVImage; 464F524D????????5955564E; 0; [yuvn,yuv,iff]; IFF YUV Image
+AmigaFantavisionMovie; 464F524D????????46414E54; 0; [iff]; Amiga Fantavision Movie
+AudioInterchange; 464F524D????????41494646; 0; [aiff,aif,aifc,snd,iff]; Audio Interchange File Format
+LzipCompressed; 4C5A4950; 0; [lz]; lzip compressed file
+DOSExecutable; 4D5A; 0; [exe,scr,sys,dll,fon,cpl,iec,ime,rs,tsp,mz]; DOS MZ executable and its descendants (including NE and PE)
+DOSExecutable; 5A4D; 0; [exe]; DOS ZM executable and its descendants (rare)
+ZipCompressed; 504B0304; 0; [zip,aar,apk,docx,epub,ipa,jar,kmz,maff,msix,odp,ods,odt,pk3,pk4,pptx,usdz,vsdx,xlsx,xpi]; zip file format and formats based on it, such as EPUB, JAR, ODF, OOXML
+RarCompressed; 526172211A0700; 0; [rar]; Roshal ARchive compressed archive v1.50 onwards
+RarCompressed; 526172211A070100; 0; [rar]; Roshal ARchive compressed archive v5.00 onwards
+ExecutableAndLinkable; 7F454C46; 0; []; Executable and Linkable Format
+PNG; 89504E470D0A1A0A; 0; [png]; Image encoded in the Portable Network Graphics format
+JavaClass; CAFEBABE; 0; [class]; Java class file, Mach-O Fat Binary
+UTF8; EFBBBF; 0; []; UTF-8 byte order mark, commonly seen in text files.
+UTF16LE; FFFE; 0; []; UTF-16LE byte order mark, commonly seen in text files.
+UTF16BE; FEFF; 0; []; UTF-16BE byte order mark, commonly seen in text files.
+UTF32LE; FFFE0000; 0; []; UTF-32LE byte order mark for text
+UTF32BE; 0000FEFF; 0; []; UTF-32BE byte order mark for text
+UTF7; 2B2F7638; 0; []; UTF-7 byte order mark for text
+SCSU; 0EFEFF; 0; []; SCSU byte order mark for text
+UTFEBCDIC; DD736673; 0; []; UTF-EBCDIC byte order mark for text
+MachOBinary32Bit; FEEDFACE; 00x1000; []; Mach-O binary (32-bit)
+MachOBinary64Bit; FEEDFACF; 00x1000; []; Mach-O binary (64-bit)
+JavaKeyStore; FEEDFEED; 0; []; JKS JavakeyStore
+PostScript; 25215053; 0; [ps]; PostScript document
+WindowsHtmlHelp; 495453460300000060000000; 0; [chm]; MS Windows HtmlHelp Data
+PDF; 255044462D; 0; [pdf]; PDF document
+AdvancedSystemsFormat; 3026B2758E66CF11A6D900AA0062CE6C; 0; [asf,wma,wmv]; Advanced Systems Format
+SystemDeploymentImage; 2453444930303031; 0; []; System Deployment Image, a disk image format used by Microsoft
+OGG; 4F676753; 0; [ogg,oga,ogv]; Ogg, an open source media container format
+PSD; 38425053; 0; [psd]; Photoshop Document file, Adobe Photoshop's native file format
+WAV; 52494646????????57415645; 0; [wav]; Waveform Audio File Format
+AVI; 52494646????????41564920; 0; [avi]; Audio Video Interleave video format
+MP3; FFFB; 0; [mp3]; MPEG-1 Layer 3 file without an ID3 tag or with an ID3v1 tag (which is appended at the end of the file)
+MP3; 494433; 0; [mp3]; MP3 file with an ID3v2 container
+BMP; 424D; 0; [bmp,dib]; BMP file, a bitmap format used mostly in the Windows world
+ISO; 4344303031; 0x80010x88010x9001; [iso]; ISO9660 CD/DVD image file
+FITS; 53494D504C4520203D202020202020202020202020202020202020202054; 0; [fits]; Flexible Image Transport System (FITS)
+FLAC; 664C6143; 0; [flac]; Free Lossless Audio Codec
+MIDI; 4D546864; 0; [mid,midi]; MIDI sound file
+CompoundFileBinary; D0CF11E0A1B11AE1; 0; [doc,xls,ppt,msi,msg]; Compound File Binary Format, a container format defined by Microsoft COM. It can contain the equivalent of files and directories. It is used by Windows Installer and for documents in older versions of Microsoft Office. It can be used by other programs as well that rely on the COM and OLE API's.
+DEX; 6465780A30333500; 0; [dex]; Dalvik Executable
+VMDK; 4B444D; 0; [vmdk]; VMDK files
+CRX; 43723234; 0; [crx]; Google Chrome extension or packaged app
+FH8; 41474433; 0; [fh8]; FreeHand 8 document
+CWK; 05070000424F424F0507000000000000000000000001; 0; [cwk]; AppleWorks 5 document
+CWK; 0607E100424F424F0607E10000000000000000000001; 0; [cwk]; AppleWorks 6 document
+Toast; 455202000000; 0; [toast]; Roxio Toast disc image file
+Toast; 8B455202000000; 0; [toast]; Roxio Toast disc image file
+DMG; 6B6F6C79; end–512; [dmg]; Apple Disk Image file
+XAR; 78617221; 0; [xar]; eXtensible ARchive format
+DAT; 504D4F43434D4F43; 0; [dat]; Windows Files And Settings Transfer Repository See also USMT 3.0 (Win XP) and USMT 4.0 (Win 7) User Guides
+NES; 4E45531A; 0; [nes]; Nintendo Entertainment System ROM file
+TAR; 7573746172003030; 257; [tar]; tar archive
+OAR; 4F4152??; 0; [oar]; OAR file archive format, where?? is the format version.
+TOX; 746F7833; 0; [tox]; Open source portable voxel file
+MLV; 4D4C5649; 0; [MLV]; Magic Lantern Video file
+WindowsUpdateBinaryDeltaCompression; 44434D0150413330; 0; []; Windows Update Binary Delta Compression file
+SevenZipCompressed; 377ABCAF271C; 0; [7z]; 7-Zip File Format
+GzipCompressed; 1F8B; 0; [gz,tar.gz]; GZIP compressed file
+XZ; FD377A585A00; 0; [xz,tar.xz]; XZ compression utility using LZMA2 compression
+LZ4; 04224D18; 0; [lz4]; LZ4 Frame FormatRemark: LZ4 block format does not offer any magic bytes.
+CAB; 4D534346; 0; [cab]; Microsoft Cabinet file
+QuantumCompressed; 535A444488F02733; 0; [??_]; Microsoft compressed file in Quantum format, used prior to Windows XP. File can be decompressed using Extract.exe or Expand.exe distributed with earlier versions of Windows. After compression, the last character of the original filename extension is replaced with an underscore, e.g. ‘Setup.exe’ becomes ‘Setup.ex_’.
+FLIF; 464C4946; 0; [flif]; Free Lossless Image Format
+MatroskaMedia; 1A45DFA3; 0; [mkv,mka,mks,mk3d,webm]; Matroska media container, including WebM
+STG; 4D494C20; 0; [stg]; SEAN : Session Analysis Training file. Also used in compatible software Rpw: Rowperfect for Windows and RP3W: ROWPERFECT3 for Windows.
+DjVu; 41542654464F524D????????444A56; 0; [djvu,djv]; DjVu documentThe following byte is either 55 (U) for single-page or 4D (M) for multi-page documents.
+DER; 3082; 0; [der]; DER encoded X.509 certificate
+DCM; 4449434D; 128; [dcm]; DICOM Medical File Format
+WOFF; 774F4646; 0; [woff]; WOFF File Format 1.0
+WOFF2; 774F4632; 0; [woff2]; WOFF File Format 2.0
+XML; 3C3F786D6C20; 0after BOM; [xml]; eXtensible Markup Language
+XML; 3C003F0078006D006C0020; 0after BOM; [xml]; eXtensible Markup Language
+XML; 003C003F0078006D006C0020; 0after BOM; [xml]; eXtensible Markup Language
+XML; 3C0000003F000000780000006D0000006C00000020000000; 0after BOM; [xml]; eXtensible Markup Language
+XML; 0000003C0000003F000000780000006D0000006C00000020; 0after BOM; [xml]; eXtensible Markup Language
+XML; 4C6FA7949340; 0after BOM; [xml]; eXtensible Markup Language
+WASM; 0061736D; 0; [wasm]; WebAssembly binary format
+LEP; CF8401; 0; [lep]; Lepton compressed JPEG image
+SWF; 435753; 0; [swf]; Adobe Flash .swf
+SWF; 465753; 0; [swf]; Adobe Flash .swf
+DEB; 213C617263683E0A; 0; [deb]; linux deb file
+WEBP; 52494646????????57454250; 0; [webp]; Google WebP image file, where???????? is the file size. More information on WebP File Header
+UBoot; 27051956; 0; []; U-Boot / uImage. Das U-Boot Universal Boot Loader.
+RTF; 7B5C72746631; 0; [rtf]; Rich Text Format
+MicrosoftTape; 54415045; 0; []; Microsoft Tape Format
+MPEG 47; 00xBC0x178...(every 188th byte); [ts,tsv,tsa,mpg,mpeg]; MPEG Transport Stream  (MPEG-2 Part 1)
+MPEG 000001BA; 0; [m2p,vob,mpg,mpeg]; MPEG Program Stream  (MPEG-1 Part 1 (essentially identical) and MPEG-2 Part 1)
+MPEG; 000001B3; 0; [mpg,mpeg]; MPEG-1 video and MPEG-2 video  (MPEG-1 Part 2 and MPEG-2 Part 2)
+MP4; 6674797069736F6D; 4; [mp4]; ISO Base Media file (MPEG-4)
+ZLIB; 7801; 0; [zlib]; No Compression (no preset dictionary)
+ZLIB; 785E; Best speed (no preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 789C; Default Compression (no preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 78DA; Best Compression (no preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 7820; No Compression (with preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 787D; Best speed (with preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 78BB; Default Compression (with preset dictionary); [zlib]; No Compression (no preset dictionary)
+ZLIB; 78F9; Best Compression (with preset dictionary); [zlib]; No Compression (no preset dictionary)
+LZFSE; 62767832; 0; [lzfse]; LZFSE - Lempel-Ziv style data compression algorithm using Finite State Entropy coding. OSS by Apple.
+ORC; 4F5243; 0; [orc]; Apache ORC (Optimized Row Columnar) file format
+AVRO; 4F626A01; 0; [avro]; Apache Avro binary file format
+RC; 53455136; 0; [rc]; RCFile columnar file format
+PhotoCapObjectTemplates; 65877856; 0; [p25,obt]; PhotoCap Object Templates
+PCV; 5555AAAA; 0; [pcv]; PhotoCap Vector
+PhotoCapTemplate; 785634; 0; [pbt,pdt,pea,peb,pet,pgt,pict,pjt,pkt,pmt]; PhotoCap Template
+ApacheParquetColumnar; 50415231; 0; []; Apache Parquet columnar file format
+EZ2; 454D5832; 0; [ez2]; Emulator Emaxsynth samples
+EZ3; 454D5533; 0; [ez3,iso]; Emulator III synth samples
+LUAC; 1B4C7561; 0; [luac]; Lua bytecode
+MacOSSymlink; 626F6F6B000000006D61726B00000000; 0; [alias]; macOS file Alias (Symbolic link)
+MicrosoftZoneIdentifier; 5B5A6F6E655472616E736665725D; 0; [Identifier]; Microsoft Zone Identifier for URL Security Zones
+EML; 52656365697665643A; 0; [eml]; Email Message var5[citation needed]
+TDE; 20020162A01EAB0702000000; 0; [tde]; Tableau Datasource
+KDB; 3748030200000000583530394B4559; 0; [kdb]; KDB file
+PGP; 85????03; 0; [pgp]; PGP file
+ZST; 28B52FFD; 0; [zst]; Zstandard compressed file
+QuickZipRSCompressed; 5253564B44415441; 0; [rs]; QuickZip rs compressed archive
+SML; 3A290A; 0; [sml]; Smile file
+PreferredExecutableFormat; 4A6F7921; 0; []; Preferred Executable Format
+SRT; 310A3030; 0; [srt]; SubRip File
+VPK; 3412AA55; 0; [vpk]; VPK file, used to store game data for some Source Engine games
+ACE; 2A2A4143452A2A; 0; [ace]; ACE (compressed file format)
+ARJ; 60EA; 0; [arj]; ARJ
+CAB; 49536328; 0; [cab]; InstallShield CAB Archive File
+Windows3XCompressed; 4B57414A; 0; [??_]; Windows 3.1x Compressed File
+Windows9XCompressed; 535A4444; 0; [??_]; Windows 9x Compressed File
+ZOO; 5A4F4F; 0; [zoo]; Zoo (file format)
+PBM; 50310A; 0; [pbm]; Portable bitmap
+PGM; 50320A; 0; [pgm]; Portable Gray Map
+PPM; 50330A; 0; [ppm]; Portable Pixmap
+WMF; D7CDC69A; 0; [wmf]; Windows Metafile
+XCF; 67696D7020786366; 0; [xcf]; XCF (file format)
+XPM; 2F2A2058504D202A2F; 0; [xpm]; X PixMap
+AFF; 414646; 0; [aff]; Advanced Forensics Format
+EX01; 45564632; 0; [Ex01]; EnCase EWF version 2 format
+E01; 455646; 0; [e01]; EnCase EWF version 1 format
+QCOW; 514649; 0; [qcow]; qcow file format
+ANI; 52494646????????41434F4E; 0; [ani]; Animated cursor
+CDA; 52494646????????43444441; 0; [cda]; .cda file
+QCP; 52494646????????514C434D; 0; [qcp]; Qualcomm PureVoice file format
+DCR; 52494658????????4647444D; 0; [dcr]; Adobe Shockwave
+DCR; 58464952????????4D444746; 0; [dcr]; Adobe Shockwave
+MacromediaDirectorFile; 52494658????????4D563933; 0; [dir,dxr,drx]; Macromedia Director file format
+MacromediaDirectorFile; 58464952????????3339564D; 0; [dir,dxr,drx]; Macromedia Director file format
+FLV; 464C56; 0; [flv]; Flash Video file
+VDI; 3C3C3C204F7261636C6520564D205669727475616C426F78204469736B20496D616765203E3E3E; 0; [vdi]; VirtualBox Virtual Hard Disk file format
+VHD; 636F6E6E6563746978; 0; [vhd]; Windows Virtual PC Virtual Hard Disk file format
+VHDX; 7668647866696C65; 0; [vhdx]; Windows Virtual PC Windows 8 Virtual Hard Disk file format
+ISZ; 49735A21; 0; [isz]; Compressed ISO image
+DAA; 444141; 0; [daa]; Direct Access Archive PowerISO
+EVT; 4C664C65; 0; [evt]; Windows Event Viewer file format
+GRP; 504D4343; 0; [grp]; Windows 3.x Program Manager Program Group file format
+ICM; 4B434D53; 0; [icm]; ICC profile
+DAT; 72656766; 0; [dat]; Windows Registry file
+PST; 2142444E; 0; [pst]; Microsoft Outlook Personal Storage Table file
+DRC; 445241434F; 0; [drc]; 3D model compressed with Google Draco
+GriddedData; 47524942; 0; [grib,grib2]; Gridded data (commonly weather observations or forecasts) in the WMO GRIB or GRIB2 format
+BLEND; 424C454E444552; 0; [blend]; Blender File Format
+JXL; 0000000C4A584C200D0A870A; 0; [jxl]; Image encoded in the JPEG XL format
+JXL; FF0A; 0; [jxl]; Image encoded in the JPEG XL format
+TrueTypeFont; 0001000000; 0; [ttf,tte,dfont]; TrueType font
+OTF; 4F54544F; 0; [otf]; OpenType font
+Modulefile; 23254D6F64756C65; 0; []; Modulefile for Environment Modules
+WindowsImagingFormat; 4D5357494D000000D000000000; 0; [wim,swm,esd]; Windows Imaging Format file
+SLOB; 212D31534C4F421F; 0; [slob]; Slob (sorted list of blobs) is a read-only, compressed data store with dictionary-like interface
+SerializedJavaData; ACED; 0; []; Serialized Java Data
